@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap");
+
+body {
+  font-family: "Montserrat";
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+}
+
+/* Download Button */
+.download-button {
+  margin: 5% 3% 0;
+}
+
+/* Title */
+#title {
+  background-color: #ff4c68;
+  /* padding-bottom: 50px; */
+}
+.title-heading {
+  font-family: "Comfortaa", cursive;
+  font-size: 3.1rem;
+  line-height: 1.5;
+  color: #fff;
+}
+.title-transparent{
+  background-color: transparent;
+}
+.iphone-mockup-img {
+  width: 80%;
+  transform: rotate(25deg);
+  /* margin-left: 100px; */
+  /* margin-top: 100px; */
+  position: relative;
+  top: 200px;
+}
+
+/* Features */
+#features {
+  background-color: #fff;
+  padding: 7% 15%;
+  position: relative;
+  z-index: 1;
+}
+.features-div-main {
+  text-align: center;
+  padding: 5%;
+}
+.features-heading {
+  text-align: center;
+  font-size: 1.7rem;
+}
+.features-p {
+  text-align: center;
+  color: #8f8f8f;
+}
+.features-img {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.features-img:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials */
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+.testimonial-text {
+  font-family: "Comfortaa", cursive;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+.testimonial-image {
+  width: 15%;
+  border-radius: 50%;
+  margin: 20px;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Press Section */
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+#pricing {
+  text-align: center;
+  padding: 7% 15%;
+}
+.pricing-main-heading {
+  font-weight:bold;
+  font-family: "Comfortaa", cursive;
+  font-size: 2.9rem;
+}
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.pricing-heading {
+  font-weight:bold;
+font-family: "Comfortaa", cursive;
+font-size: 1.6rem;
+}
+.pricing-title-card-fee {
+  font-weight: bold;
+}
