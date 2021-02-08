@@ -5,7 +5,7 @@ body {
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 4%;
 }
 
 /* Navigation Bar */
@@ -19,6 +19,10 @@ body {
 }
 .nav-item {
   padding: 0 18px;
+}
+.navbar-toggler-icon {
+  width: 3rem;
+  height: 3rem;
 }
 .nav-link {
   font-size: 1.2rem;
@@ -46,10 +50,9 @@ body {
 .iphone-mockup-img {
   width: 80%;
   transform: rotate(25deg);
-  /* margin-left: 100px; */
-  /* margin-top: 100px; */
   position: relative;
-  top: 200px;
+  left: 50px;
+  top: 100px;
 }
 
 /* Features */
@@ -133,4 +136,49 @@ font-size: 1.6rem;
 }
 .pricing-title-card-fee {
   font-weight: bold;
+}
+
+/* Call to Action */
+#cta{
+  text-align: center;
+  padding: 7% 15%;
+  background-color: #ff4c68;
+}
+.cta-heading{
+  font-weight:bold;
+  font-family: "Comfortaa", cursive;
+  font-size: 2.9rem;
+  color: #fff;
+}
+
+/* Footer Section */
+#footer {
+background-color: #fff;
+text-align: center;
+padding: 7% 15% 2%;
+}
+.footer-p {
+  color: #8f8f8f;
+}
+.footer-img {
+  display: inline-block;
+  padding: 2% 1% 2%;
+}
+ /* Media Query */
+
+ @media (max-width: 992px) {
+ #title {
+   text-align: center;
+ }
+ .container-fluid {
+   padding: 3% 1% 4%;
+ }
+  .iphone-mockup-img {
+   position: static;
+   margin-top: 30px;
+   transform: rotate(0deg);
+ }
+.title-section-mobile-tweak{
+  padding: 0 15% 0;
+}
 }
